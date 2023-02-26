@@ -1,0 +1,223 @@
+/* Sub-title css */
+.decor:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 5px;
+    background: #43BAFF;
+    border-radius: 50%;
+    content: "";
+}
+
+.decor:after {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 5px;
+    height: 5px;
+    background: #43BAFF;
+    border-radius: 50%;
+    content: "";
+}
+
+.decor span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    background: #43BAFF;
+    margin: 2px 0;
+}
+
+.text.clr-yellow p {
+    color: #43BAFF;
+}
+
+.decor-left {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    width: 70px;
+    height: 5px;
+    background: transparent;
+}
+
+.decor-left span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    background: #43BAFF;
+    content: "";
+    margin: 2px 0;
+}
+
+.decor-left:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 5px;
+    background: #43BAFF;
+    border-radius: 50%;
+    content: "";
+}
+
+.decor-left:after {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 5px;
+    height: 5px;
+    background: #43BAFF;
+    border-radius: 50%;
+    content: "";
+}
+
+.decor-right {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    width: 70px;
+    height: 5px;
+    background: transparent;
+}
+
+.decor-right span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    background: #43BAFF;
+    content: "";
+    margin: 2px 0;
+}
+
+.decor-right:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    height: 5px;
+    background: #43BAFF;
+    border-radius: 50%;
+    content: "";
+}
+
+.decor-right:after {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    width: 5px;
+    height: 5px;
+    background: #43BAFF;
+    border-radius: 50%;
+    content: "";
+}
+
+/* Phone input css */
+.react-tel-input .form-control {
+    font-size: 16px !important;
+    padding-left: 70px !important;
+    border: 1px solid #43BAFF !important;
+    border-radius: 6px !important;
+    height: 60px !important;
+    width: 100% !important;
+}
+
+.react-tel-input .form-control:focus {
+    font-size: 16px !important;
+    padding-left: 70px !important;
+    border: 1px solid #7141B1 !important;
+    border-radius: 6px !important;
+    height: 60px !important;
+    width: 100% !important;
+}
+
+.react-tel-input .flag-dropdown {
+    border: 1px solid #43BAFF !important;
+}
+
+.react-tel-input .flag-dropdown:focus {
+    border: 1px solid #7141B1 !important;
+}
+
+.react-tel-input .selected-flag {
+    width: 60px !important;
+    padding-left: 20px !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag {
+    background-color: #fff !important;
+}
+
+/* Submit button css */
+.submit-button {
+    font-family: inherit;
+    font-size: 20px;
+    background: #43BAFF;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.submit-button:hover {
+
+    background: #7141B1;
+}
+
+.submit-button span {
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-button .submit-svg {
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.submit-button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.submit-button:hover .submit-svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.submit-button:hover span {
+    transform: translateX(5em);
+}
+
+.submit-button:active {
+    transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
+    }
+}

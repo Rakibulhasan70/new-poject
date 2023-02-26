@@ -1,0 +1,52 @@
+.bg-banner-home {
+    background-image: url(../../../Assets/home-img/bg-banner-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #0E0A31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button design */
+
+.video-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.video-box span {
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.play-btn {
+    background: #fff;
+    color: #43baff;
+    font-size: 20px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.play-btn:hover {
+    background: #43baff;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .play-btn {
+        font-size: 18px;
+        width: 50px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,54 @@
+.what-we-do-bg {
+    background-image: url(../../../Assets/home-img/bg-shape-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-color: #0E0A31;
+}
+
+.tech-icon-container {
+    border: 2px solid #211F3B;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+}
+
+.tech-icon-container .tech-icon {
+    font-size: 40px;
+    color: #fff;
+}
+
+.tech-icon-container:hover {
+    background-image: linear-gradient(#43BAFF, #7141B1);
+    /* background-color: #7141B1;
+    color: #fff; */
+}
+
+.tech-icon-container .tech-icon:hover {
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .tech-icon-container {
+        height: 70px;
+        width: 70px;
+    }
+
+    .tech-icon-container .tech-icon {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .tech-icon-container {
+        height: 70px;
+        width: 70px;
+    }
+
+    .tech-icon-container .tech-icon {
+        font-size: 35px;
+    }
+}

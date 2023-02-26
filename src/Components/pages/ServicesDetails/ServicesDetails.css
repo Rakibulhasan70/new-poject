@@ -1,0 +1,13 @@
+.services-banner {
+    background-image: url(../../../Assets/services-img/service-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.we-are-different-bg {
+    background-image: url(../../../Assets/home-img/bg-shape-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0E0A31;
+}
