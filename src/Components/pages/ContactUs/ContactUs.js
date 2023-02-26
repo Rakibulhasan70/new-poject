@@ -18,7 +18,7 @@ const ContactUs = () => {
     <div>
       <section className="max-w-7xl lg:mx-auto md:mx-5 mx-5">
         <div className="my-12">
-          <h1 className="text-[#131313] lg:text-4xl md:text-3xl text-2xl font-bold text-center">CONTACT USS</h1>
+          <h1 className="text-[#131313] lg:text-4xl md:text-3xl text-2xl font-bold text-center">CONTACT US</h1>
           <div className="flex items-center justify-center my-5">
             <div className="decor-left">
               <span></span>
@@ -120,7 +120,7 @@ const ContactUs = () => {
           </div>
           <div className="lg:w-2/5 md:w-2/5 w-full order-first md:order-last">
             <img className="w-75 rounded" src={contact_img} alt="" />
-            <p className="lg:w-3/4 md:w-full w-full mt-5">We've driven online revenues of over $2 billion for our clients. Ready to know how we can help youu?</p>
+            <p className="lg:w-3/4 md:w-full w-full mt-5">We've driven online revenues of over $2 billion for our clients. Ready to know how we can help you?</p>
             <div className="mt-5">
               <p className="text-xl font-bold">info@demo.com</p>
               <p className="text-xl font-bold">+91 11 1111 2900</p>
