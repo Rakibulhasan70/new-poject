@@ -14,31 +14,32 @@ function Faq() {
         }
     };
     const questions = [
-        {
-            question: 'What is React?',
-            answer:
-                'React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of their application efficiently.'
-        },
-        {
-            question: 'What is Tailwind CSS?',
-            answer:
-                'Tailwind CSS is a utility-first CSS framework that provides pre-defined classes for building custom UI designs. It aims to make the development process faster and more efficient by reducing the need for custom CSS styles.'
-        },
-        {
-            question: 'What are hooks in React?',
-            answer:
-                'Hooks are functions that allow developers to use state and other React features in functional components. They were introduced in React 16.8 and have become an essential part of React development.'
-        },
-        {
-            question: 'What is useState() hook?',
-            answer:
-                'useState() is a built-in React hook that allows developers to add state to functional components. It takes an initial value as a parameter and returns an array with the current state value and a function to update that value.'
-        },
-        {
-            question: 'What is the purpose of useEffect() hook?',
-            answer:
-                'useEffect() is a built-in React hook that allows developers to perform side effects, such as updating the DOM or fetching data from an API, in functional components. It runs after every render and takes a function as a parameter.'
-        }
+      {
+        question: "What services does Softonix offer?",
+        answer:
+          " Softonix offers a wide range of services including network and infrastructure management, software development, web development, Bug Fixing, frontend Development, and digital transformation consulting.",
+      },
+      {
+        question: "How experienced are Softnoix professionals?",
+        answer:
+          "Softonix professionals have a wealth of experience in the industry and possess diverse skill sets. Many of our team members hold advanced degrees and industry certifications, and we encourage ongoing professional development to stay current with the latest technologies and trends.",
+      },
+      {
+        question: "How do you ensure the security of client data?",
+        answer:
+          "We take data security very seriously and have robust measures in place to protect our clients' data. This includes using secure servers, implementing encryption protocols, enforcing strict access controls, and conducting regular security audits.",
+      },
+      {
+        question:
+          "Can you provide references or case studies of your previous work?",
+        answer:
+          "Yes, we can provide references and case studies upon request. We have worked with a wide range of clients across various industries and have successfully completed numerous projects.",
+      },
+      {
+        question: "What is your pricing model?",
+        answer:
+          "Our pricing model varies depending on the scope and complexity of the project. We typically offer both fixed-price and time-and-materials pricing options to accommodate different client needs.",
+      },
     ];
 
     return (

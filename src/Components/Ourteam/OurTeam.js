@@ -12,15 +12,16 @@ const OurTeam = () => {
   useTitle('Our Team')
   return (
     <div>
-      <section className='our-team-bg md:h-[80vh] flex items-center'>
-        <div className='py-[50px] md:py-0'>
-          <h1 className='text-4xl text-white font-bold text-center'>OUR TEAM</h1>
-          <p className='text-white text-2xl font-sans md:text-center py-9 px-5 lg:px-[80px] text-justify'>Successful teamwork starts with individuals. We collaborate to reach common goals and together
-            we achieve more to provide best solutions. Our teammates turn their work into a trustful
-            and respectful partnership permeating every aspect of our team activity.</p>
-          <div className='flex justify-center'>
-            <button className='bg-[#43BAFF] hover:bg-[#7141B1] transition-all shadow-2xl tracking-wider text-white px-9 py-4 text-xl font-bold rounded-full'>HIRE OUR TEAM</button>
-          </div>
+      <section className="our-team-bg md:h-[80vh] flex items-center">
+        <div className="py-[50px] md:py-0">
+          <h1 className="text-4xl text-white font-bold text-center">
+            OUR TEAM
+          </h1>
+          <p className="text-white text-2xl font-sans md:text-center py-9 px-5 lg:px-[80px] text-justify">
+            Welcome to our Softonix team page! We are a dynamic team of highly
+            skilled professionals who are passionate about delivering innovative
+            technology solutions to our clients.
+          </p>
         </div>
       </section>
       <div>
@@ -28,31 +29,25 @@ const OurTeam = () => {
           Meet Our Team
         </h1>
         <p className="text-xl flex justify-center items-center mt-6">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
-          nemo! Eos incidunt rem quam dicta?
+          Our team is comprised of highly skilled IT professionals who are
+          passionate about delivering innovative solutions to our clients.
         </p>
       </div>
       <section class="our-team-section mt-6">
         <div class=" max-w-7xl lg:mx-auto md:mx-auto mx-5">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 ">
-            <div className=''>
+            <div className="">
               <div class="our-team">
                 <div class="pic">
                   <img src={niharImg} alt="..." />
                 </div>
                 <div class="team-content">
-                  <h2 className="text-2xl font-bold">
-                    Monirul Islam Nihar
-                  </h2>
+                  <h2 className="text-2xl font-bold">Monirul Islam Nihar</h2>
                   <h3 class="profession">Web Developer</h3>
                 </div>
                 <ul class="social">
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -87,11 +82,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -112,11 +103,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -149,11 +136,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <img
                         alt="svgImg"
                         className="w-6 h-6"
@@ -171,18 +154,12 @@ const OurTeam = () => {
                   <img src={naeemImg} alt="..." />
                 </div>
                 <div class="team-content">
-                  <h2 className="text-2xl font-bold">
-                    Jannatun Naeem
-                  </h2>
+                  <h2 className="text-2xl font-bold">Jannatun Naeem</h2>
                   <h3 class="profession">Web Developer</h3>
                 </div>
                 <ul class="social">
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -217,11 +194,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -242,11 +215,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -279,11 +248,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <img
                         alt="svgImg"
                         className="w-6 h-6"
@@ -300,18 +265,12 @@ const OurTeam = () => {
                   <img src={sohagImg} alt="..." />
                 </div>
                 <div class="team-content">
-                  <h2 className="text-2xl font-bold">
-                    Rakibul Hasan Sohag
-                  </h2>
+                  <h2 className="text-2xl font-bold">Rakibul Hasan Sohag</h2>
                   <h3 class="profession">Web Developer</h3>
                 </div>
                 <ul class="social">
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -346,11 +305,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -371,11 +326,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -408,11 +359,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <img
                         alt="svgImg"
                         className="w-6 h-6"
@@ -430,18 +377,12 @@ const OurTeam = () => {
                   <img src={hridoyImg} alt="..." />
                 </div>
                 <div class="team-content">
-                  <h2 className="text-2xl font-bold">
-                    Saiful Islam Hridoy
-                  </h2>
+                  <h2 className="text-2xl font-bold">Saiful Islam Hridoy</h2>
                   <h3 class="profession">Web Developer</h3>
                 </div>
                 <ul class="social">
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -476,11 +417,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -501,11 +438,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -538,11 +471,7 @@ const OurTeam = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
                       <img
                         alt="svgImg"
                         className="w-6 h-6"
@@ -556,35 +485,66 @@ const OurTeam = () => {
           </div>
         </div>
       </section>
-      <section className='mt-8'>
-        <h2 className='text-center text-3xl md:text-5xl font-bold py-3'>Not Colleagues</h2>
-        <h2 className='text-center text-3xl md:text-4xl font-bold'>We Are Family</h2>
-        <div className='grid grid-cols-1 md:grid-cols-2 mt-7 justify-center items-center'>
-          <div className='mx-5 md:mx-9 order-last lg:order-first mt-5'>
-            <h4 className='text-3xl'>We are not colleagues we are family</h4>
-            <p className='text-justify'>
-              At Softonixt, we believe our members are our top asset and our success lies in how well we source, hire and retain the best people. We hire intelligent and motivated experts who take pride in and prioritize developing superior software solutions for our clients.</p>
-            <h4 className='text-3xl pt-4'>Teamwork</h4>
-            <p className='text-justify'>
-              We recognize that a cohesive team is greater than the sum of its parts. Our employees draw on rich, diverse backgrounds, talents, experiences, and interests while working in close collaboration to consistently deliver high-quality services to our clients.</p>
-            <h4 className='text-3xl pt-4'>Honest & Integrity</h4>
-            <p className='text-justify'>
-              We hold ourselves accountable to the highest standards for honesty, integrity, trust, and transparency within our organization and when interacting with our global clients.            </p>
+      <section className="mt-8">
+        <h2 className="text-center text-3xl md:text-5xl font-bold py-3">
+          Not Colleagues
+        </h2>
+        <h2 className="text-center text-3xl md:text-4xl font-bold">
+          We Are Family
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-7 justify-center items-center">
+          <div className="mx-5 md:mx-9 order-last lg:order-first mt-5">
+            <h4 className="text-3xl">We are not colleagues we are family</h4>
+            <p className="text-justify text-xl">
+              Softonix believe in fostering a sense of family among our team
+              members. We understand that our team spends a significant amount
+              of time together, and we believe that a strong sense of
+              camaraderie and mutual respect is essential to our success. We
+              work collaboratively, support each other's professional growth,
+              and celebrate each other's successes. At our company, we are not
+              just colleagues - we are a family.
+            </p>
+            <h4 className="text-3xl pt-4">Teamwork</h4>
+            <p className="text-justify text-xl">
+              Softonix believe in the power of teamwork. Our team of experts
+              work closely together to create innovative solutions that meet the
+              unique needs of our clients. We value open communication,
+              collaboration, and a shared commitment to delivering high-quality
+              results. Through our teamwork, we are able to exceed our clients'
+              expectations and achieve their technology goals.
+            </p>
+            <h4 className="text-3xl pt-4">Honest & Integrity</h4>
+            <p className="text-justify text-xl">
+              Softonix,honesty and integrity are at the core of everything we
+              do. We believe in being transparent with our clients, delivering
+              on our promises, and always acting in their best interests. We
+              take pride in our ethical business practices and believe that they
+              are essential to building strong, long-lasting relationships with
+              our clients. You can trust us to deliver reliable, high-quality
+              solutions that meet your needs and exceed your expectations.{" "}
+            </p>
           </div>
-          <div className='order-first lg:order-last'>
+          <div className="order-first lg:order-last">
             <img src={colleagues}></img>
           </div>
         </div>
       </section>
-      <section className='my-8 mx-5 md:mx-9 bg-[#322B5D] mt-[50px] rounded-md'>
-        <div className='grid grid-cols-1 md:grid-cols-2 p-8'>
-          <div className='order-last lg:order-first'>
-            <h3 className='text-2xl md:text-4xl font-bold py-4 text-white'>Ready to talk about your next project with us? </h3>
-            <p className='py-4 text-xl text-white'>Helping startups to Fortune 500 companies achieve their digital transformations since 2013.</p>
-            <button className='bg-[#43BAFF] hover:bg-[#7141B1] transition-all py-3 px-6 rounded-md text-white'>CONTACT US</button>
+      <section className="my-8 mx-5 md:mx-9 bg-[#322B5D] mt-[50px] rounded-md">
+        <div className="grid grid-cols-1 md:grid-cols-2 p-8">
+          <div className="order-last lg:order-first">
+            <h3 className="text-2xl md:text-4xl font-bold py-4 text-white">
+              Ready to talk about your next project with us?{" "}
+            </h3>
+            <p className="py-4 text-xl text-white">
+              We work with clients across various industries and offer flexible
+              pricing options to accommodate different needs and budgets.
+            </p>
+            <button className="bg-[#43BAFF] hover:bg-[#7141B1] transition-all py-3 px-6 rounded-md text-white">
+              CONTACT US
+            </button>
           </div>
-          <div className='order-first lg:order-last'>
-            <img className='rounded-md' src={readyToTalk}></img>
+          <div className="order-first lg:order-last">
+            <img className="rounded-md" src={readyToTalk}></img>
           </div>
         </div>
       </section>

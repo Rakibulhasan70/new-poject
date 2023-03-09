@@ -9,21 +9,21 @@ import LocationIconRed from '../../../Assets/location-icon.png';
 
 function Review() {
     const reviews = [
-        {
-            id: 1,
-            name: "John Smith",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur.",
-        },
-        {
-            id: 2,
-            name: "Jane Doe",
-            text: "Praesent id est ac enim congue congue sit amet quis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        },
-        {
-            id: 3,
-            name: "Bob Johnson",
-            text: "Aenean in nisi fringilla, tincidunt ante eu, hendrerit sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        },
+      {
+        id: 1,
+        name: "John Smith",
+        text: "Good communication, great commitment. Always willing to go the extra mile. I will surely work with them again as soon I have another available milestone",
+      },
+      {
+        id: 2,
+        name: "Jane Doe",
+        text: "I've been working with Softonix for a couple of personal projects and I can easily vouch for his positive can-do attitude and presence. I answered all my requests with an energetic.",
+      },
+      {
+        id: 3,
+        name: "Bob Johnson",
+        text: "Softonoix team has a terrific developers. They were fast and provided great code. They  worked on new features, on setting up our e2e automated tests with cyrpress, on establishing a way to lint our codebase with husky, and on fixing and finding bugs.",
+      },
     ];
 
     const [sliderRef, setSliderRef] = useState(null);
@@ -39,51 +39,80 @@ function Review() {
     };
 
     return (
-        <section className='bg-sky-50 lg:p-12 md:p-12 p-5'>
-            <div className='max-w-7xl lg:mx-auto md:mx-auto lg:px-5 lg:py-12 md:py-0 py-8'>
-                <div className='md:flex grid grid-cols-1 lg:gap-24 md:gap-5 gap-8'>
-                    <div className='md:w-1/2 w-full'>
-                        <p className='lg:text-lg md:text-base text-sm font-semibold py-2 px-5 inline-block rounded-full text-[#0E0A31] bg-sky-200'>Our Feedbacks</p>
-                        <p className='md:text-4xl text-2xl font-bold mb-3 text-[#2E3033] my-5'>What they're talking about us</p>
-                        <p className='lg:text-lg md:text-lg text-base text-gray-600'>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many.</p>
-                    </div>
-                    <div className='md:w-1/2 w-full'>
-                        <div className='flex justify-end gap-5 w-full md:mb-8 mb-4'>
-                            <button className='bg-white rounded-xl px-4 py-4 arrowShadow' onClick={handlePrevious}>
-                                <FaChevronLeft className='text-[#0E0A31] lg:text-2xl md:text-xl text-xl' />
-                            </button>
-                            <button className='bg-white rounded-xl px-4 py-4 arrowShadow' onClick={handleNext}>
-                                <FaChevronRight className='text-[#0E0A31] lg:text-2xl md:text-xl text-xl' />
-                            </button>
-                        </div>
-                        <Slider ref={(slider) => setSliderRef(slider)}>
-                            {reviews.map((review) => (
-                                <div key={review.id} className='w-full lg:p-10 md:p-8 p-5 grid grid-cols-1 bg-white rounded-xl relative'>
-                                    <div className='flex items-center justify-between'>
-                                        <div className='flex items-center gap-4'>
-                                            <div>
-                                                <img src={Avatar} alt='avatar' className='h-12 w-12 rounded-full border-4 border-[#E4E4E4]' />
-                                            </div>
-                                            <div>
-                                                <p className='text-lg font-semibold text-[#2E3033]'>{review.name}</p>
-                                                <p className='text-sm flex items-center gap-1 text-[#777B84]'><img src={LocationIconRed} alt='location' />Dhaka, Bangladesh</p>
-                                            </div>
-                                        </div>
-                                        <div className='absolute top-5 md:right-5 right-0'>
-                                            <img src={Quote} alt='Quote' className='md:w-full w-4/5' />
-                                        </div>
-                                    </div>
-                                    <div className='inline-block pt-3 text-[#777B84]'>
-                                        <p>{review.text}</p>
-                                    </div>
-                                </div>
-                            ))}
-                        </Slider>
-                    </div>
-                </div>
+      <section className="bg-sky-50 lg:p-12 md:p-12 p-5">
+        <div className="max-w-7xl lg:mx-auto md:mx-auto lg:px-5 lg:py-12 md:py-0 py-8">
+          <div className="md:flex grid grid-cols-1 lg:gap-24 md:gap-5 gap-8">
+            <div className="md:w-1/2 w-full">
+              <p className="lg:text-lg md:text-base text-sm font-semibold py-2 px-5 inline-block rounded-full text-[#0E0A31] bg-sky-200">
+                Our Feedbacks
+              </p>
+              <p className="md:text-4xl text-2xl font-bold mb-3 text-[#2E3033] my-5">
+                What they're talking about us
+              </p>
+              <p className="lg:text-lg md:text-lg text-base text-gray-600">
+                {" "}
+                Some of our Customer's Rave Review of Our Product/Service.
+              </p>
             </div>
-        </section>
-    )
+            <div className="md:w-1/2 w-full">
+              <div className="flex justify-end gap-5 w-full md:mb-8 mb-4">
+                <button
+                  className="bg-white rounded-xl px-4 py-4 arrowShadow"
+                  onClick={handlePrevious}
+                >
+                  <FaChevronLeft className="text-[#0E0A31] lg:text-2xl md:text-xl text-xl" />
+                </button>
+                <button
+                  className="bg-white rounded-xl px-4 py-4 arrowShadow"
+                  onClick={handleNext}
+                >
+                  <FaChevronRight className="text-[#0E0A31] lg:text-2xl md:text-xl text-xl" />
+                </button>
+              </div>
+              <Slider ref={(slider) => setSliderRef(slider)}>
+                {reviews.map((review) => (
+                  <div
+                    key={review.id}
+                    className="w-full lg:p-10 md:p-8 p-5 grid grid-cols-1 bg-white rounded-xl relative"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-4">
+                        <div>
+                          <img
+                            src={Avatar}
+                            alt="avatar"
+                            className="h-12 w-12 rounded-full border-4 border-[#E4E4E4]"
+                          />
+                        </div>
+                        <div>
+                          <p className="text-lg font-semibold text-[#2E3033]">
+                            {review.name}
+                          </p>
+                          <p className="text-sm flex items-center gap-1 text-[#777B84]">
+                            <img src={LocationIconRed} alt="location" />
+                            Dhaka, Bangladesh
+                          </p>
+                        </div>
+                      </div>
+                      <div className="absolute top-5 md:right-5 right-0">
+                        <img
+                          src={Quote}
+                          alt="Quote"
+                          className="md:w-full w-4/5"
+                        />
+                      </div>
+                    </div>
+                    <div className="inline-block pt-3 text-[#777B84]">
+                      <p>{review.text}</p>
+                    </div>
+                  </div>
+                ))}
+              </Slider>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
 }
 
 

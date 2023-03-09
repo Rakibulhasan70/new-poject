@@ -27,13 +27,16 @@ const AboutUS = () => {
               </h3>
             </div>
             <p class="text-xl mt-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Softonix is not just another IT company, but a team of passionate
+              and skilled professionals who are dedicated to providing
+              innovative and customized solutions to our clients. We understand
+              that every business is unique, and therefore, we tailor our
+              services to meet the specific needs and goals of each of our
+              clients.At our core, we value honesty, integrity, and transparency
+              in all our dealings with our clients. We believe in building
+              long-term relationships with our clients based on trust and mutual
+              respect. Our goal is not just to meet our clients' expectations,
+              but to exceed them.
             </p>
             <div>
               <button class="continue-application mt-10 mb-10">
@@ -71,17 +74,18 @@ const AboutUS = () => {
                 </div>
                 <div class="px-8 py-6">
                   <p>
-                    <em class="text-blue-400">const</em>{" "}
+                    <em class="text-blue-400">const{""}</em>{" "}
                     <span class="text-green-400">aboutUs</span>{" "}
                     <span class="text-pink-500">=</span>{" "}
-                    <em class="text-blue-400">function</em>(){" "}
+                    <em class="text-blue-400">function</em>() {"{"}{" "}
                   </p>
                   <p>
-                    &nbsp;&nbsp;<span class="text-pink-500">return</span>{" "}
+                    &nbsp;&nbsp;
+                    <span class="text-pink-500">return {"{"}</span>{" "}
                   </p>
                   <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;name:{" "}
-                    <span class="text-yellow-300">'Company Name'</span>,
+                    <span class="text-yellow-300">'Softonix'</span>,
                   </p>
                   <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;Services:{" "}
@@ -105,8 +109,8 @@ const AboutUS = () => {
                     </span>
                     ,
                   </p>
-                  <p>&nbsp;&nbsp;</p>
-                  <p></p>
+                  <p className='text-pink-500'>{"}"}</p>
+                  <p>{"}"}</p>
                 </div>
               </div>
             </div>
@@ -158,14 +162,19 @@ const AboutUS = () => {
       <div className="max-w-7xl lg:mx-auto md:mx-8 mx-5 lg:px-8 grid lg:grid-cols-1 md:grid-cols-1 grid-cols-1 mb-16">
         <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-20 md:gap-8 gap-20 grid-cols-1 mt-16 ">
           <div className="">
-            <h1 className="text-4xl mb-3">Working hours</h1>
+            <h1 className="text-4xl mb-3">Working strategy </h1>
             <div className="flex">
-              <img className="lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 rounded" src={hour} alt="" />
+              <img
+                className="lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 rounded"
+                src={hour}
+                alt=""
+              />
               <h1 className="text-xl ml-6">
                 {" "}
-                We're a work-oriented and result-driven IT company. Though work
-                is our priority, we provide flexible working hours to help you
-                reduce stress
+                Based on the mission, vision, and value proposition, set
+                strategic goals that align with the company's overall direction.
+                The goals should be specific, measurable, achievable, relevant,
+                and time-bound (SMART).
               </h1>
             </div>
           </div>
@@ -173,26 +182,35 @@ const AboutUS = () => {
             <h1 className="text-4xl mb-3">Activities</h1>
             <div className="flex">
               {/* <h1 className="text-4xl  ml-6 mb-3">Flexible working hours</h1> */}
-              <img className="lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 rounded" src={activites} alt="" />
+              <img
+                className="lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 rounded"
+                src={activites}
+                alt=""
+              />
               {/* <IoArrowRedoSharp className="w-12 h-12 text-cyan-500" /> */}
               <h1 className="text-xl ml-6">
                 {" "}
-                We're a work-oriented and result-driven IT company. Though work
-                is our priority, we provide flexible working hours to help you
-                reduce stress
+                Project managers oversee the development of software and IT
+                projects, ensuring that they are completed on time, within
+                budget, and to the satisfaction of the client or customer.
               </h1>
             </div>
           </div>
           <div className="">
             <h1 className="text-4xl mb-3"> Opportunity</h1>
             <div className="flex">
-              <img className="lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 rounded" src={grouth} alt="" />
+              <img
+                className="lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 rounded"
+                src={grouth}
+                alt=""
+              />
               {/* <IoArrowRedoSharp className="w-12 h-12 text-cyan-500" /> */}
               <h1 className="text-xl ml-6">
                 {" "}
-                We're a work-oriented and result-driven IT company. Though work
-                is our priority, we provide flexible working hours to help you
-                reduce stress
+                Softonix specialize in e-commerce solutions can help businesses
+                in a number of ways. we can provide expertise in areas such as
+                website design, development, and maintenance, as well as
+                security and payment processing.
               </h1>
             </div>
           </div>
@@ -200,12 +218,16 @@ const AboutUS = () => {
             <h1 className="text-4xl mb-3">Co-Workers</h1>
             <div className="flex">
               {/* <IoArrowRedoSharp className="w-12 h-12 text-cyan-500" /> */}
-              <img className="lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 rounded" src={worker} alt="" />
+              <img
+                className="lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 rounded"
+                src={worker}
+                alt=""
+              />
               <h1 className="text-xl ml-6">
                 {" "}
-                We're a work-oriented and result-driven IT company. Though work
-                is our priority, we provide flexible working hours to help you
-                reduce stress
+                we have strong communication skills and effectively collaborate
+                with colleagues and clients of various technical backgrounds. We
+                believe in ‘Grow Together’ mantra.
               </h1>
             </div>
           </div>
@@ -250,7 +272,7 @@ const AboutUS = () => {
                 Why You Choose us ?
               </h2>
             </div>
-            <div className='lg:py-12 md:py-12 py-5'>
+            <div className="lg:py-12 md:py-12 py-5">
               <Faq />
             </div>
           </div>
@@ -262,7 +284,7 @@ const AboutUS = () => {
             friendly team.
           </p>
           <button class="py-3 px-7 w-fit shadow-lg text-white rounded-lg bg-[#43BAFF] hover:bg-[#7141B1] transition-all">
-            <Link to="contactUs">Get in touch</Link>
+            <Link to="/contactUs">Get in touch</Link>
           </button>
         </div>
       </section>
